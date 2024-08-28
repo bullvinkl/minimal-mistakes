@@ -334,6 +334,10 @@ defaults:
         nav: "docs"
   - scope:
       path: ""
+    values:
+      layout: "default"
+  - scope:
+      path: ""
       type: tag
     values:
       author_profile: true
