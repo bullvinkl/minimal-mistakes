@@ -112,12 +112,12 @@ analytics:
 
 
 # Site Author
-# author:
-  # name             : "Максим Макаров"
+author:
+  name             : "Максим Макаров"
   # avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  # bio              : "I am an **amazing** person."
-  # location         : "Moscow"
-  # email            :
+  bio              : "I am an **amazing** person."
+  location         : "Moscow"
+  email            : "admin@itdraft.ru"
   # links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
