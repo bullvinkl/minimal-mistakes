@@ -299,10 +299,19 @@ jekyll-archives:
   enabled:
     - categories
     - tags
+    - year
+    - month
+    - tags
   layouts:
-    category: archive-taxonomy
-    tag: archive-taxonomy
+    year: year-archive
+    month: month-archive
+    day: day-archive
+    category: archive-archive
+    tag: archive-archive
   permalinks:
+    year: /:year/
+    month: /:year/:month/
+    day: /:year/:month/:day/
     category: /categories/:name/
     tag: /tags/:name/
 
