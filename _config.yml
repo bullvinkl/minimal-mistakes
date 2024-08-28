@@ -291,17 +291,19 @@ tag_archive:
   type: liquid
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
 #   layouts:
 #     category: archive-taxonomy
 #     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
-
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
+    year: /:year/
+    month: /:year/:month/
+    day: /:year/:month/:day/
 
 # HTML Compression
 # - https://jch.penibelst.de/
@@ -323,7 +325,7 @@ defaults:
       show_date: true
       date_format: "%Y-%m-%d"
       read_time: true
-      comments: true
+      comments: # true
       share: false
       related: false
       toc_sticky: true
