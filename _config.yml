@@ -321,8 +321,9 @@ defaults:
       author_profile: false
       read_time: true
       comments: # true
-      share: true
-      related: true
+      share: false
+      related: false
+      pagination: false
       toc_sticky: true
       sidebar:
         nav: "docs"
