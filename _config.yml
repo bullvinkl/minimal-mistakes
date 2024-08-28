@@ -17,9 +17,9 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "ru-RU"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Документация"
+title                    : "ITDraft"
 title_separator          : "-"
-subtitle                 : "A Jekyll theme" # site tagline that appears below site title in masthead
+subtitle                 : "документация" # site tagline that appears below site title in masthead
 name                     : &name "Максим Макаров"
 description              : &description "An amazing website."
 url                      : "https://docs.itdraft.ru" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -28,9 +28,9 @@ repository               : "bullvinkl/minimal-mistakes" # GitHub username/repo-n
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-breadcrumbs              : true # true, false (default)
+breadcrumbs              : false # true, false (default)
 words_per_minute         : 200
-enable_copy_code_button  : true # true, false (default)
+enable_copy_code_button  : false # true, false (default)
 copyright                : "IT Draft. Сделано с любовью ☺" # "copyright" name, defaults to site.title
 copyright_url            : # "copyright" URL, defaults to site.url
 comments:
@@ -95,11 +95,11 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : "/assets/images/og_image.webp" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
+  type                   : "Person" # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
 
