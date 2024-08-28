@@ -296,14 +296,18 @@ tag_archive:
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
 jekyll-archives:
-  enabled: all
-  layout: archive
+  enabled:
+    - tags
+    - month
+  layouts:
+    month: month
+    tag: tag
   permalinks:
-    year: '/:year/'
     month: '/:year/:month/'
-    day: '/:year/:month/:day/'
     tag: '/tag/:name/'
-    category: '/category/:name/'
+  title_prefix: Archives
+paginate: 5
+paginate_path: "/page/:num"
 
 # HTML Compression
 # - https://jch.penibelst.de/
@@ -311,12 +315,6 @@ compress_html:
   clippings: all
   ignore:
     envs: development
-
-# Archives
-collections:
-  archives:
-    output: true
-    permalink: /archives/:path/
 
 # Defaults
 defaults:
@@ -336,17 +334,3 @@ defaults:
       toc_sticky: true
       sidebar:
         nav: "docs"
-  - scope:
-      path: ""
-    values:
-      layout: "default"
-  - scope:
-      path: ""
-      type: tag
-    values:
-      author_profile: true
-  - scope:
-      path: ""
-      type: category
-    values:
-      comments: false
