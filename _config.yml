@@ -112,19 +112,19 @@ analytics:
 
 
 # Site Author
-author:
-  name             : "Максим Макаров"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Moscow"
-  email            :
-  links:
+# author:
+  # name             : "Максим Макаров"
+  # avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  # bio              : "I am an **amazing** person."
+  # location         : "Moscow"
+  # email            :
+  # links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:admin@itdraft.ru"
+      # url: "mailto:admin@itdraft.ru"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://itdraft.ru"
+      # url: "https://itdraft.ru"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
@@ -133,7 +133,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/bullvinkl"
+      # url: "https://github.com/bullvinkl"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
