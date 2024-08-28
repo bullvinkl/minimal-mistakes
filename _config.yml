@@ -117,11 +117,11 @@ author:
   # avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an **amazing** person."
   location         : "Moscow"
-  email            : "admin@itdraft.ru"
+  email            :
   # links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:admin@itdraft.ru"
+      url: "mailto:admin@itdraft.ru"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://itdraft.ru"
