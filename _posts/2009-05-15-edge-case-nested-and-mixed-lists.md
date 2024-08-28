@@ -1,5 +1,7 @@
 ---
 title: "Edge Case: Nested and Mixed Lists"
+pagination: 
+  enabled: false
 categories:
   - Edge Case
 tags:
