@@ -324,3 +324,5 @@ defaults:
       share: true
       related: true
       toc_sticky: true
+      sidebar:
+        nav: "docs"
