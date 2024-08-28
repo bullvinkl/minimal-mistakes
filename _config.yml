@@ -296,24 +296,14 @@ tag_archive:
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
 jekyll-archives:
-  enabled:
-    - categories
-    - tags
-    - year
-    - month
-    - tags
-  layouts:
-    year: year-archive
-    month: month-archive
-    day: day-archive
-    category: archive-archive
-    tag: archive-archive
+  enabled: []
+  layout: archive
   permalinks:
-    year: /notes/:year/
-    month: /notes/:year/:month/
-    day: /notes/:year/:month/:day/
-    category: /categories/:name/
-    tag: /tags/:name/
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
+    tag: '/tag/:name/'
+    category: '/category/:name/'
 
 # HTML Compression
 # - https://jch.penibelst.de/
