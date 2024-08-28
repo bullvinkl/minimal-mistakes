@@ -309,9 +309,9 @@ jekyll-archives:
     category: archive-archive
     tag: archive-archive
   permalinks:
-    year: /:year/
-    month: /:year/:month/
-    day: /:year/:month/:day/
+    year: /notes/:year/
+    month: /notes/:year/:month/
+    day: /notes/:year/:month/:day/
     category: /categories/:name/
     tag: /tags/:name/
 
