@@ -7,7 +7,3 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
-
-document.getElementById('scroll-to-top').style.display = 'block';
-document.getElementById('scroll-to-top').style.opacity = 1;
-document.getElementById('scroll-to-top').style.transform = 'translateY(-30%)'
