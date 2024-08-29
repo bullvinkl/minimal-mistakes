@@ -101,7 +101,7 @@ og_image                 : "/assets/images/og_image.webp" # Open Graph/Twitter d
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : "Person" # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+  name                   : "Максим Макаров" # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
 
 # Analytics
@@ -260,11 +260,13 @@ pagination:
 # Plugins (previously gems:)
 plugins:
 #  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-relative-links
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
-  - jekyll-archives
+#  - jekyll-archives
   - jekyll-paginate-v2
 
 # mimic GitHub Pages with --safe
@@ -292,8 +294,9 @@ category_archive:
   path: /categories/
 tag_archive:
   type: liquid
-# S  type: jekyll-archives
+#  type: jekyll-archives
   path: /tags/
+
 # https://github.com/jekyll/jekyll-archives
 jekyll-archives:
   enabled:
@@ -306,8 +309,25 @@ jekyll-archives:
     month: '/:year/:month/'
     tag: '/tag/:name/'
   title_prefix: Archives
-paginate: 5
-paginate_path: "/page/:num"
+# paginate: 5
+# paginate_path: "/page/:num"
+
+jekyll_compose:
+  default_front_matter:
+    drafts:
+      description:
+      author:
+      image:
+      categories:
+      tags:
+    posts:
+      description:
+      author:
+      image:
+      categories:
+      tags:
+      published: false
+      sitemap: false
 
 # HTML Compression
 # - https://jch.penibelst.de/
